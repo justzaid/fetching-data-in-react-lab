@@ -10,7 +10,6 @@ const index = async () => {
         const res = await fetch(BASE_URL)
         const data = await res.json()
         return data
-        console.log(data)
     } catch (error) {
         console.log(error)
     }
